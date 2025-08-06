@@ -133,7 +133,7 @@
 
 /* 로그인 */
 .login-wrap {
-    background: #092d60;
+    background: url('@/assets/images/mobile-login-bg.png') no-repeat 50% 0 / cover;
     color: #fff;
     width: 100vw;
     height: 100vh;
@@ -142,6 +142,13 @@
     padding-top: 12rem;
     padding-left: 4.5rem;
     padding-right: 4.5rem;
+}
+
+.login-logo{
+    //margin-bottom: 1rem;
+    img{
+        max-width: 100%;
+    }
 }
 
 .login-box {
