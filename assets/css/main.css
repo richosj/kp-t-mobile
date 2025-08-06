@@ -231,7 +231,7 @@ ol {
 
 /* 로그인 */
 .login-wrap {
-  background: #092d60;
+  background: url("../images/mobile-login-bg.png") no-repeat 50% 0/cover;
   color: #fff;
   width: 100vw;
   height: 100vh;
